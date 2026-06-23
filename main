@@ -1,1 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Elite Studio Car</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#07192d;
+color:white;
+}
+
+header{
+
+background:#05101d;
+
+padding:20px 8%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+border-bottom:2px solid #cc6d15;
+
+}
+
+.logo{
+
+font-size:30px;
+
+font-weight:bold;
+
+color:#ffffff;
+
+}
+
+nav a{
+
+color:#dfe9f3;
+
+text-decoration:none;
+
+margin-left:25px;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#cc6d15;
+
+}
+
+.hero{
+
+height:85vh;
+
+background:
+linear-gradient(
+rgba(4,16,32,.65),
+rgba(4,16,32,.75)
+),
+
+url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+max-width:900px;
+
+}
+
+.hero p{
+
+margin-top:15px;
+
+font-size:21px;
+
+color:#d7e1ea;
+
+}
+
+.botao{
+
+margin-top:35px;
+
+padding:16px 38px;
+
+background:#cc6d15;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:10px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.botao:hover{
+
+background:#e67c18;
+
+transform:scale(1.05);
+
+}
+
+.servicos{
+
+padding:80px 8%;
+
+background:#0a2038;
+
+}
+
+.titulo{
+
+text-align:center;
+
+font-size:36px;
+
+margin-bottom:40px;
+
+color:white;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(260px,1fr));
+
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+
+color:#07192d;
+
+padding:30px;
+
+border-radius:14px;
+
+}
+
+.card h3{
+
+color:#cc6d15;
+
+margin-bottom:10px;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+transition:.3s;
+
+}
+
+.contato{
+
+padding:70px;
+
+text-align:center;
+
+background:#05101d;
+
+}
+
+.contato h2{
+
+color:#ffffff;
+
+margin-bottom:20px;
+
+}
+
+.contato p{
+
+color:#d9e3ec;
+
+}
+
+footer{
+
+padding:22px;
+
+text-align:center;
+
+background:#03101c;
+
+color:#9bb0c5;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+ELITE STUDIO CAR
+</div>
+
+<nav>
+
+<a href="#">Início</a>
+
+<a href="#">Serviços</a>
+
+<a href="#">Contato</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>
+Cuidado Premium Para Carros e Motos
+</h1>
+
+<p>
+Lavagem • Polimento • Higienização • Estética Automotiva
+</p>
+
+<a
+class="botao"
+
+href="https://wa.me/5579999991234?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20serviço."
+
+target="_blank">
+
+Agendar Serviço
+
+</a>
+
+</section>
+
+
+<section class="servicos">
+
+<h2 class="titulo">
+
+Nossos Serviços
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>
+Lavagem Detalhada
+</h3>
+
+<p>
+Limpeza completa interna e externa com acabamento premium.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+Polimento Técnico
+</h3>
+
+<p>
+Recuperação do brilho e correção visual.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+Vitrificação
+</h3>
+
+<p>
+Proteção prolongada para a pintura.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+Estética para Motos
+</h3>
+
+<p>
+Tratamento detalhado e acabamento refinado.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="contato">
+
+<h2>
+
+Entre em contato
+
+</h2>
+
+<p>
+
+📱 WhatsApp: (82) 98755-7948
+
+</p>
+
+<br>
+
+<p>
+
+📍 Pov - Saúde
+
+</p>
+
+
+<p>
+
+📍 Neópolis - SE
+</p>
+</section>
+
+
+<footer>
+
+© 2026 Elite Studio Car
+
+</footer>
+
+</body>
+
+</html>
